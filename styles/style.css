@@ -1,15 +1,16 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
-  background-image: url('../images/cover-image-dark.png');
+  background-image: var(--bg-img);
   background-attachment: fixed;
   background-position: center;
   font-family: var(--main-font-family);
   font-size: var(--font-size);
+  width: 100%;
 }
 
 body{
-  background-color: #000028;
+  background-color: var(--bg-color);
 }
 
 .decorated-zone{
@@ -44,10 +45,54 @@ body{
     min-height: 668px;
     display: grid;
     gap: 55px;
-    
     align-items: center;
-    width: 984px;
+    max-width: 984px;
     margin: 0 auto;
+  }
+
+  .header::after{
+    content: "";
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 25px;
+    height: 25px;
+    border-top: 1px solid var(--border-color-frame);
+    border-right: 1px solid var(--border-color-frame);
+  }
+
+  .header::before{
+    content: "";
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    width: 25px;
+    height: 25px;
+    border-bottom: 1px solid var(--border-color-frame);
+    border-left: 1px solid var(--border-color-frame);
+  }
+
+  .bulb {
+    position: absolute;
+    color: #FF0070;
+    font-size: 18px;
+    top: 20px;
+    right: 28px;
+    text-transform: uppercase;
+    width: 52px;
+    display: var(--display-bulb);
+  }
+
+  .bulb::before{
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    top: 8px;
+    right: 0;
+    width: 9px;
+    height: 9px;
+    background-color: #FF0070;
+    box-shadow: 0px 0px 4px 2px #FF0070;
   }
 
   .header__theme-menu-list {
@@ -70,7 +115,7 @@ body{
   }
   .cover__description{
     background-color: var(--bg-color-title);
-    width: 364px;
+    width: 50%;
     height: auto;
     justify-self: end;
   }
@@ -83,7 +128,7 @@ body{
   }
 
   .section__container{
-    width: 984px;
+    max-width: 984px;
     margin: 0 auto;
     margin-top: 40px;
     display: grid;
@@ -155,7 +200,7 @@ body{
   }
 
   .section__container-img{
-    width: 984px;
+    max-width: 984px;
     margin: 0 auto;
     margin-top: 40px;
     display: grid;
@@ -193,7 +238,7 @@ body{
 
   .container__article-image{
     margin: 0 auto;
-    width: 984px;
+    max-width: 984px;
     display: grid;
     gap: 20px;
     grid-template-columns: 1fr 1fr 1fr;
@@ -204,7 +249,33 @@ body{
     ;
   }
 
+  .footer::after{
+    content: "";
+    position: absolute;
+    right: 20px;
+    width: 25px;
+    height: 25px;
+    top: 20px;
+    border-top: 1px solid var(--border-color-frame);
+    border-right: 1px solid var(--border-color-frame);
+  }
+
+  .footer::before{
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    bottom: 20px;
+    left: 20px;
+    border-bottom: 1px solid var(--border-color-frame);
+    border-left: 1px solid var(--border-color-frame);
+  }
+
   .footer{
+    position: relative;
+    margin: 0 auto;
+    max-width: 984px;
+    min-height: 668px;
     margin-top: 40px;
     display: grid;
     justify-content: center;
@@ -216,10 +287,54 @@ body{
     min-height: 668px;
     display: grid;
     gap: 55px;
-    
     align-items: center;
-    width: 728px;
+    max-width: 728px;
     margin: 0 auto;
+  }
+
+  .header::after{
+    content: "";
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 25px;
+    height: 25px;
+    border-top: 1px solid var(--border-color-frame);
+    border-right: 1px solid var(--border-color-frame);
+  }
+
+  .header::before{
+    content: "";
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    width: 25px;
+    height: 25px;
+    border-bottom: 1px solid var(--border-color-frame);
+    border-left: 1px solid var(--border-color-frame);
+  }
+
+  .bulb {
+    position: absolute;
+    color: #FF0070;
+    font-size: 18px;
+    top: 20px;
+    right: 28px;
+    text-transform: uppercase;
+    width: 52px;
+    display: var(--display-bulb);
+  }
+
+  .bulb::before{
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    top: 8px;
+    right: 0;
+    width: 9px;
+    height: 9px;
+    background-color: #FF0070;
+    box-shadow: 0px 0px 4px 2px #FF0070;
   }
 
   .header__theme-menu{
@@ -235,7 +350,7 @@ body{
   }
   .cover__description{
     background-color: var(--bg-color-title);
-    width: 364px;
+    max-width: 364px;
     height: auto;
     justify-self: end;
   }
@@ -248,7 +363,7 @@ body{
   }
 
   .section__container{
-    width: 728px;
+    max-width: 728px;
     margin: 0 auto;
     margin-top: 40px;
     display: grid;
@@ -288,7 +403,7 @@ body{
 }
 
 .main-title__what{
-  width: 236px;
+  max-width: 236px;
 }
 
   .title-section__information{
@@ -314,7 +429,7 @@ body{
   }
 
   .section__container-img{
-    width: 728px;
+    max-width: 728px;
     margin: 0 auto;
     margin-top: 40px;
     display: grid;
@@ -352,7 +467,7 @@ body{
 
   .container__article-image{
     margin: 0 auto;
-    width: 728px;
+    max-width: 728px;
     display: grid;
     gap: 20px;
     grid-template-columns: 1fr 1fr 1fr;
@@ -363,7 +478,30 @@ body{
     ;
   }
 
+  .footer::after{
+    content: "";
+    position: absolute;
+    right: 20px;
+    width: 25px;
+    height: 25px;
+    top: 20px;
+    border-top: 1px solid var(--border-color-frame);
+    border-right: 1px solid var(--border-color-frame);
+  }
+
+  .footer::before{
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    bottom: 20px;
+    left: 20px;
+    border-bottom: 1px solid var(--border-color-frame);
+    border-left: 1px solid var(--border-color-frame);
+  }
+
   .footer{
+    position: relative;
     margin-top: 40px;
     display: grid;
     justify-content: center;
@@ -377,9 +515,55 @@ body{
     gap: 55px;
     justify-content: center;
     align-items: center;
-    width: 355px;
+    max-width: 355px;
     margin: 0 auto;
   }
+
+  .header::after{
+    content: "";
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 25px;
+    height: 25px;
+    border-top: 1px solid var(--border-color-frame);
+    border-right: 1px solid var(--border-color-frame);
+  }
+
+  .header::before{
+    content: "";
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    width: 25px;
+    height: 25px;
+    border-bottom: 1px solid var(--border-color-frame);
+    border-left: 1px solid var(--border-color-frame);
+  }
+
+  .bulb {
+    position: absolute;
+    color: #FF0070;
+    font-size: 18px;
+    top: 20px;
+    right: 28px;
+    text-transform: uppercase;
+    width: 52px;
+    display: var(--display-bulb);
+  }
+
+  .bulb::before{
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    top: 8px;
+    right: 0;
+    width: 9px;
+    height: 9px;
+    background-color: #FF0070;
+    box-shadow: 0px 0px 4px 2px #FF0070;
+  }
+
   .slogan{
     font-size: 116px;
     line-height: 83%;
@@ -401,7 +585,7 @@ body{
   }
 
   .section__container{
-    width: 355px;
+    max-width: 355px;
     margin: 0 auto;
     margin-top: 40px;
     display: grid;
@@ -441,7 +625,7 @@ body{
   }
 
   .section__container-img{
-    width: 355px;
+    max-width: 355px;
     margin: 0 auto;
     margin-top: 40px;
     display: grid;
@@ -449,7 +633,7 @@ body{
   }
 
   .section__image{
-    width: 355px;
+    max-width: 355px;
   }
 
   .images-of-tips{
@@ -458,7 +642,30 @@ body{
     object-fit: contain;
   }
 
+  .footer::after{
+    content: "";
+    position: absolute;
+    right: 20px;
+    width: 25px;
+    height: 25px;
+    top: 20px;
+    border-top: 1px solid var(--border-color-frame);
+    border-right: 1px solid var(--border-color-frame);
+  }
+
+  .footer::before{
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    bottom: 20px;
+    left: 20px;
+    border-bottom: 1px solid var(--border-color-frame);
+    border-left: 1px solid var(--border-color-frame);
+  }
+
   .footer{
+    position: relative;
     margin-top: 40px;
   }
 }

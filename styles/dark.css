@@ -18,4 +18,8 @@
   --color-slogan: #DB00FF;
   --text-shadow-slogan: 4px 4px 0px #FF0070;
   --text-shadow-link: 2.5px 2px 0px #FF0070;
+  --border-color-frame: #FF0070;
+  --display-bulb: block;
+  --bg-img: url('../images/cover-image-dark.png');
+  --bg-color: #000028;
 }
