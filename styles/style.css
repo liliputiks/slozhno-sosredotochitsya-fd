@@ -39,6 +39,178 @@ body{
   outline: var(--bd-out-but);
 }
 
+@media (width >= 768px){
+  .decorated-zone{
+    min-height: 668px;
+    display: grid;
+    gap: 55px;
+    
+    align-items: center;
+    width: 984px;
+    margin: 0 auto;
+  }
+
+  .header__theme-menu-list {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .header__theme-menu{
+    padding-top: 20px;
+    width: 230px;
+    justify-self: center;
+    align-self: start;
+  }
+
+  .slogan{
+    font-size: 157px;
+    line-height: 83%;
+    color: var(--color-slogan);
+    text-shadow: var(--text-shadow-slogan);
+    font-weight: var(--font-weight-main-text);
+  }
+  .cover__description{
+    background-color: var(--bg-color-title);
+    width: 364px;
+    height: auto;
+    justify-self: end;
+  }
+  .cover__description-text{
+    display: grid;
+    color: var(--text-color-title);
+    font-weight: var(--font-weight-main-text);
+    line-height: 23.4px;
+    font-family: var(--main-font-family);
+  }
+
+  .section__container{
+    width: 984px;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: grid;
+    gap: 20px;
+  }
+  
+  .container__article{
+    display: grid;
+    gap: 10px;
+  }
+
+  .container__article-image{
+    display: grid;
+
+  }
+
+  .section__information {
+    display: grid;
+    gap: 10px;
+    grid-template-rows: 23px 1fr;
+  }
+
+.what-reduces-concentration__container__aarticle {
+  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+  .why-is-it-so-difficult{
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .recommendations{
+    grid-template-rows: 1fr ;
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .section__title{
+    grid-row: 1 / 2; 
+    color: var(--other-text-color);
+    font-size: var(--font-size);
+  }
+  
+
+.main-title__what{
+  width: 315px;
+}
+
+  .title-section__information{
+    background-color: var(--bg-color-title);
+    color: var(--text-color-title);
+    font-size: var(--font-size);
+  }
+
+  .text-section__information{
+    color: var(--text-color-description);
+  }
+
+  .link-to-the-article{
+    text-decoration: none;
+    text-shadow: var(--text-shadow-link);
+  }
+
+  .regular-title-section__information{
+    font-weight: normal;
+    background-color: var(--bg-color-title);
+    color: var(--text-color-title);
+    font-size: var(--font-size);
+  }
+
+  .section__container-img{
+    width: 984px;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: grid;
+    gap: 10px;
+  }
+
+  .section__image{
+  }
+
+  .images-of-tips{
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .sunset {
+    grid-area: sunset;
+  }
+
+  .ice-cream {
+    grid-area: ice-cream;
+  }
+
+  .tape {
+    grid-area: tape;
+  }
+
+  .books {
+    grid-area: books;
+  }
+
+  .street {
+    grid-area: street;
+  }
+
+  .container__article-image{
+    margin: 0 auto;
+    width: 984px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+      "sunset sunset ice-cream"
+      "tape books ice-cream"
+      "tape street street"
+    ;
+  }
+
+  .footer{
+    margin-top: 40px;
+    display: grid;
+    justify-content: center;
+  }
+}
+
 @media (width >= 375px) and (width <= 768px){
   .decorated-zone{
     min-height: 668px;
@@ -90,7 +262,7 @@ body{
 
   .container__article-image{
     display: grid;
-    
+
   }
 
   .why-is-it-so-difficult{
@@ -150,17 +322,51 @@ body{
   }
 
   .section__image{
-    width: 728px;
   }
 
   .images-of-tips{
     max-width: 100%;
-    height: auto;
-    object-fit: contain;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .sunset {
+    grid-area: sunset;
+  }
+
+  .ice-cream {
+    grid-area: ice-cream;
+  }
+
+  .tape {
+    grid-area: tape;
+  }
+
+  .books {
+    grid-area: books;
+  }
+
+  .street {
+    grid-area: street;
+  }
+
+  .container__article-image{
+    margin: 0 auto;
+    width: 728px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+      "sunset sunset ice-cream"
+      "tape books ice-cream"
+      "tape street street"
+    ;
   }
 
   .footer{
     margin-top: 40px;
+    display: grid;
+    justify-content: center;
   }
 }
 
