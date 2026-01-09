@@ -30,7 +30,7 @@
 }
 
 @media (prefers-color-scheme: light) {
-  body {
+  html {
     --text-color-title: #353430;
     --text-color-description: #353430;
     --bg-color-title: #FF8DCB;
