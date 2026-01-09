@@ -15,7 +15,6 @@ body {
 
 .decorated-zone {
   height: 100vh;
-
 }
 
 .header__theme-menu {
@@ -62,11 +61,10 @@ body {
   outline: var(--bd-focus-link);
 }
 
-@media (width >=768px) {
+@media (width >768px) {
   .decorated-zone {
-    min-height: 668px;
+    min-height: 768px;
     display: grid;
-    gap: 55px;
     align-items: center;
     max-width: 984px;
     margin: 0 auto;
@@ -299,11 +297,10 @@ body {
   }
 }
 
-@media (width >=375px) and (width <=768px) {
+@media (width <=768px){
   .decorated-zone {
-    min-height: 668px;
+    min-height: 1024px;
     display: grid;
-    gap: 55px;
     align-items: center;
     max-width: 728px;
     margin: 0 auto;
@@ -522,7 +519,6 @@ body {
   .decorated-zone {
     min-height: 668px;
     display: grid;
-    gap: 55px;
     justify-content: center;
     align-items: center;
     max-width: 355px;
