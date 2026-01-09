@@ -228,8 +228,6 @@ body {
     gap: 10px;
   }
 
-  .section__image {}
-
   .images-of-tips {
     max-width: 100%;
     height: 100%;
@@ -259,7 +257,6 @@ body {
   .container__article-image {
     margin: 0 auto;
     max-width: 984px;
-    display: grid;
     gap: 20px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas:
@@ -453,8 +450,6 @@ body {
     gap: 10px;
   }
 
-  .section__image {}
-
   .images-of-tips {
     max-width: 100%;
     height: 100%;
@@ -484,7 +479,6 @@ body {
   .container__article-image {
     margin: 0 auto;
     max-width: 728px;
-    display: grid;
     gap: 20px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas:
