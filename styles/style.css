@@ -607,7 +607,7 @@ body {
   .section__container {
     max-width: 355px;
     margin: 0 auto;
-    margin-top: 40px;
+    margin-top: 50px;
     display: grid;
     gap: 20px;
   }
@@ -625,7 +625,7 @@ body {
   .section__information {
     display: grid;
     gap: 10px;
-    line-height: 23.7px;
+    line-height: 23.42px;
   }
 
   .title-section__information {
@@ -648,7 +648,7 @@ body {
   .section__container-img {
     max-width: 355px;
     margin: 0 auto;
-    margin-top: 40px;
+    margin-top: 50px;
     display: grid;
     gap: 10px;
   }
