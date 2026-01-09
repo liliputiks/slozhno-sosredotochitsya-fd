@@ -3,16 +3,15 @@
   и их переопределение под различные устройства
 */
 
-:root{
+:root {
   --main-font-family: 'IBM Plex Mono';
   --bg-color: #000028;
   --font-size: 18px;
   --font-weight-main-text: bold;
-  
 }
 
 @media (prefers-color-scheme: dark) {
-  :root.theme-auto {
+  body {
     --text-color-title: #000028;
     --text-color-description: #F1B2CE;
     --other-text-color: #FF0070;
@@ -33,7 +32,7 @@
 }
 
 @media (prefers-color-scheme: light) {
-  :root.theme-auto {
+  body {
     --text-color-title: #353430;
     --text-color-description: #353430;
     --bg-color-title: #FF8DCB;
