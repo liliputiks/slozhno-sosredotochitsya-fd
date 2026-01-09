@@ -574,6 +574,8 @@ body {
   .header__theme-menu {
     justify-self: end;
     align-self: end;
+    right: 10px;
+    bottom: 10px;
   }
 
   .slogan {
@@ -585,11 +587,13 @@ body {
   }
 
   .cover__description {
+    position: relative;
     background-color: var(--bg-color-title);
     height: auto;
     align-self: start;
     justify-self: center;
     max-width: 355px;
+    top: 10px;
   }
 
   .cover__description-text {
@@ -621,7 +625,7 @@ body {
   .section__information {
     display: grid;
     gap: 10px;
-    line-height: 23.5px;
+    line-height: 23.7px;
   }
 
   .title-section__information {
