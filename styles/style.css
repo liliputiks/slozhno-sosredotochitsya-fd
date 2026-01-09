@@ -593,7 +593,7 @@ body {
     align-self: start;
     justify-self: center;
     max-width: 355px;
-    top: 10px;
+    top: 15px;
   }
 
   .cover__description-text {
@@ -604,10 +604,15 @@ body {
     font-family: var(--main-font-family);
   }
 
+  .content {
+    display: grid;
+    gap: 50px;
+    margin-top: 40px;
+  }
+
   .section__container {
     max-width: 355px;
     margin: 0 auto;
-    margin-top: 50px;
     display: grid;
     gap: 20px;
   }
@@ -625,7 +630,7 @@ body {
   .section__information {
     display: grid;
     gap: 10px;
-    line-height: 23.42px;
+    line-height: 23.49px;
   }
 
   .title-section__information {
@@ -648,7 +653,6 @@ body {
   .section__container-img {
     max-width: 355px;
     margin: 0 auto;
-    margin-top: 50px;
     display: grid;
     gap: 10px;
   }
