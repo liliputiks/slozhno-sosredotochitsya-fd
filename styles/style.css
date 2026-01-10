@@ -140,6 +140,7 @@ body {
     width: 50%;
     height: auto;
     justify-self: end;
+    align-self: start;
   }
 
   .cover__description-text {
@@ -150,17 +151,22 @@ body {
     font-family: var(--main-font-family);
   }
 
+  .content {
+    display: grid;
+    gap: 80px;
+    margin-top: 60px;
+  }
+
   .section__container {
     max-width: 984px;
     margin: 0 auto;
-    margin-top: 40px;
     display: grid;
     gap: 20px;
   }
 
   .container__article {
     display: grid;
-    gap: 10px;
+    gap: 20px;
   }
 
   .container__article-image {
@@ -172,6 +178,7 @@ body {
     display: grid;
     gap: 10px;
     grid-template-rows: 23px 1fr;
+    line-height: 23.4px;
   }
 
   .what-reduces-concentration__container__aarticle {
@@ -181,7 +188,7 @@ body {
 
   .why-is-it-so-difficult {
     grid-template-rows: 1fr;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 2.1fr;
   }
 
   .recommendations {
@@ -222,9 +229,8 @@ body {
   .section__container-img {
     max-width: 984px;
     margin: 0 auto;
-    margin-top: 40px;
     display: grid;
-    gap: 10px;
+    gap: 20px;
   }
 
   .images-of-tips {
@@ -292,7 +298,7 @@ body {
     margin: 0 auto;
     max-width: 984px;
     min-height: 668px;
-    margin-top: 40px;
+    margin-top: 60px;
     display: grid;
     justify-content: center;
   }
@@ -355,7 +361,7 @@ body {
   .header__theme-menu {
     justify-self: end;
     align-self: end;
-    bottom: 20px;
+    bottom: 30px;
   }
 
   .slogan {
@@ -372,8 +378,8 @@ body {
     max-width: 364px;
     height: auto;
     justify-self: end;
-    align-self: flex-start;
-    top: 20px;
+    align-self: start;
+    margin-top: 30px;
   }
 
   .cover__description-text {
