@@ -169,11 +169,6 @@ body {
     gap: 20px;
   }
 
-  .container__article-image {
-    display: grid;
-
-  }
-
   .section__information {
     display: grid;
     gap: 10px;
@@ -263,6 +258,7 @@ body {
     margin: 0 auto;
     max-width: 984px;
     gap: 20px;
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas:
       "sunset sunset ice-cream"
@@ -408,11 +404,6 @@ body {
     gap: 20px;
   }
 
-  .container__article-image {
-    display: grid;
-
-  }
-
   .why-is-it-so-difficult {
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 2fr;
@@ -493,6 +484,7 @@ body {
     margin: 0 auto;
     max-width: 728px;
     gap: 20px;
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas:
       "sunset sunset ice-cream"
