@@ -141,6 +141,8 @@ body {
     height: auto;
     justify-self: end;
     align-self: start;
+    position: relative;
+    top: 20px;
   }
 
   .cover__description-text {
@@ -370,12 +372,13 @@ body {
   }
 
   .cover__description {
+    position: relative;
     background-color: var(--bg-color-title);
     max-width: 364px;
     height: auto;
     justify-self: end;
     align-self: start;
-    margin-top: 30px;
+    top: 25px;
   }
 
   .cover__description-text {
