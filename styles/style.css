@@ -354,6 +354,8 @@ body {
 
   .header__theme-menu {
     justify-self: end;
+    align-self: end;
+    bottom: 20px;
   }
 
   .slogan {
@@ -362,6 +364,7 @@ body {
     color: var(--color-slogan);
     text-shadow: var(--text-shadow-slogan);
     font-weight: var(--font-weight-main-text);
+    justify-self: start;
   }
 
   .cover__description {
@@ -369,6 +372,8 @@ body {
     max-width: 364px;
     height: auto;
     justify-self: end;
+    align-self: flex-start;
+    top: 20px;
   }
 
   .cover__description-text {
@@ -379,17 +384,22 @@ body {
     font-family: var(--main-font-family);
   }
 
+  .content {
+    display: grid;
+    gap: 80px;
+    margin-top: 60px;
+  }
+
   .section__container {
     max-width: 728px;
     margin: 0 auto;
-    margin-top: 40px;
     display: grid;
     gap: 20px;
   }
 
   .container__article {
     display: grid;
-    gap: 10px;
+    gap: 20px;
   }
 
   .container__article-image {
@@ -416,7 +426,7 @@ body {
   .section__information {
     display: grid;
     gap: 10px;
-
+    line-height: 23.4px;
   }
 
   .main-title__what {
@@ -443,9 +453,8 @@ body {
   .section__container-img {
     max-width: 728px;
     margin: 0 auto;
-    margin-top: 40px;
     display: grid;
-    gap: 10px;
+    gap: 20px;
   }
 
   .images-of-tips {
@@ -510,7 +519,7 @@ body {
 
   .footer {
     position: relative;
-    margin-top: 40px;
+    margin-top: 60px;
     display: grid;
     justify-content: center;
   }
