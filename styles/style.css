@@ -142,7 +142,7 @@ body {
     justify-self: end;
     align-self: start;
     position: relative;
-    top: 20px;
+    top: 25px;
   }
 
   .cover__description-text {
@@ -178,6 +178,10 @@ body {
     line-height: 23.4px;
   }
 
+  .gap-0 {
+    gap: 0px;
+  }
+
   .what-reduces-concentration__container__aarticle {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -190,8 +194,10 @@ body {
 
   .recommendations {
     grid-template-rows: 1fr;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 2.1fr;
   }
+
+
 
   .section__title {
     grid-row: 1 / 2;
@@ -359,7 +365,7 @@ body {
   .header__theme-menu {
     justify-self: end;
     align-self: end;
-    bottom: 30px;
+    bottom: 40px;
   }
 
   .slogan {
@@ -378,7 +384,7 @@ body {
     height: auto;
     justify-self: end;
     align-self: start;
-    top: 25px;
+    top: 40px;
   }
 
   .cover__description-text {
