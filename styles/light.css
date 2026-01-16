@@ -1,17 +1,9 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
-
-
 :root.theme-light {
     --text-color-title: #353430;
     --text-color-description: #353430;
     --bg-color-title: #FF8DCB;
-    --color-slogan: #FFC2E6;
-    --text-shadow-slogan: 4px 4px 0px #FF8DCB;
+    --color-tagline: #FFC2E6;
+    --text-shadow-tagline: 4px 4px 0px #FF8DCB;
     --display-bulb: none;
     --other-text-color: #353430;
     --bd-out-but: 1px solid #353430;
@@ -30,8 +22,8 @@
     --text-color-title: #353430;
     --text-color-description: #353430;
     --bg-color-title: #FF8DCB;
-    --color-slogan: #FFC2E6;
-    --text-shadow-slogan: 4px 4px 0px #FF8DCB;
+    --color-tagline: #FFC2E6;
+    --text-shadow-tagline: 4px 4px 0px #FF8DCB;
     --display-bulb: none;
     --other-text-color: #353430;
     --bd-out-but: 1px solid #353430;
