@@ -277,7 +277,8 @@ body {
   .header__theme-menu {
     align-self: end;
     height: auto;
-    margin-bottom: 20px;
+    margin-bottom: 52px;
+    margin-right: 20px;
   }
 
   .main__page__title {
@@ -306,7 +307,7 @@ body {
 
   .why-is-it-so-difficult {
     grid-template-rows: 1fr;
-    grid-template-columns: 1fr 2.1fr;
+    grid-template-columns: 1fr 2fr;
   }
 
   .recommendations {
@@ -396,7 +397,7 @@ body {
   .header__theme-menu {
     justify-self: center;
     align-self: start;
-    margin: 18px 0 0 0;
+    margin: 20px 0 0 0;
   }
 
    .why-is-it-so-difficult {
