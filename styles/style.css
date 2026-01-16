@@ -24,10 +24,6 @@ body {
   margin: 0 auto;
 }
 
-.header__theme-menu {
-  position: relative;
-}
-
 .header__theme-menu-list {
   display: grid;
   gap: 10px;
@@ -118,6 +114,7 @@ body {
 }
 
 .header__theme-menu {
+  position: relative;
   justify-self: end;
   align-self: center;
   margin-top: 40px;
@@ -164,7 +161,6 @@ body {
 
 .section__container {
   max-width: 100%;
-  margin: 0 auto;
   display: grid;
   gap: 20px;
   margin: 0 10px;
@@ -311,11 +307,6 @@ body {
     gap: 20px;
   }
 
-
-  .section__information {
-    grid-template-rows: auto 1fr;
-  }
-
   .why-is-it-so-difficult {
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 2fr;
@@ -334,21 +325,11 @@ body {
     display: grid;
     gap: 10px;
     line-height: 23.4px;
+    grid-template-rows: auto 1fr;
   }
 
-  .what-reduces-concentration__container__aarticle {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-
-  .why-is-it-so-difficult {
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr 2.1fr;
-  }
-
-  .recommendations {
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr 2.1fr;
+  .gap {
+    gap: 0px;
   }
 
   .section__container-img {
@@ -422,8 +403,9 @@ body {
     margin-top: 50px;
   }
 
-  .gap {
-    gap: 0px;
+  .what-reduces-concentration__container__aarticle {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 
 }
