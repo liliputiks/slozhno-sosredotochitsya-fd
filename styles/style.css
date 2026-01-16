@@ -399,6 +399,14 @@ body {
     margin: 18px 0 0 0;
   }
 
+   .why-is-it-so-difficult {
+    grid-template-columns: 1fr 2.06fr;
+  }
+
+  .recommendations {
+    grid-template-columns: 1fr 2.06fr;
+  }
+
   .cover__description {
     max-width: 48%;
     margin-top: 50px;
