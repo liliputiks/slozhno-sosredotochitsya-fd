@@ -22,6 +22,7 @@ body {
   grid-template-rows: 1fr 1fr 1fr;
   align-items: center;
   margin: 0 auto;
+  min-height: 668px;
 }
 
 .header__theme-menu-list {
@@ -62,10 +63,6 @@ body {
 
 .link-to-the-article:focus {
   outline: var(--bd-focus-link);
-}
-
-.decorated-zone {
-  min-height: 668px;
 }
 
 .decorated-zone::after {
@@ -309,7 +306,7 @@ body {
 
   .why-is-it-so-difficult {
     grid-template-rows: 1fr;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 2.1fr;
   }
 
   .recommendations {
@@ -319,6 +316,10 @@ body {
 
   .section__title {
     max-width: 315px;
+  }
+
+  .main-title__what {
+    max-width: 236px;
   }
 
   .section__information {
@@ -401,6 +402,10 @@ body {
   .cover__description {
     max-width: 48%;
     margin-top: 50px;
+  }
+
+  .main-title__what {
+    max-width: 355px;
   }
 
   .what-reduces-concentration__container__aarticle {
