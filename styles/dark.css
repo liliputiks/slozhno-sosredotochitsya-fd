@@ -21,22 +21,22 @@
 
 
 :root.theme-dark {
-    --text-color-title: #000028;
-    --text-color-description: #F1B2CE;
-    --other-text-color: #FF0070;
-    --bd-out-but: 1px solid #FF0070;
-    --bd-focus-but: 1px solid #FF0070;
-    --bd-hover-but: 1px solid #FF007066;
-    --bd-focus-link: 1px solid #F1B2CE;
-    --bd-hover-link: 1px solid #F1B2CE;
-    --bg-color-title: #FF0070;
-    --color-tagline: #DB00FF;
-    --text-shadow-tagline: 4px 4px 0px #FF0070;
-    --text-shadow-link: 2.5px 2px 0px #FF0070;
-    --border-color-frame: #FF0070;
-    --display-bulb: block;
-    --bg-img: url('../images/cover-image-dark.png');
-    --bg-color: #000028;
+  --text-color-title: #000028;
+  --text-color-description: #F1B2CE;
+  --other-text-color: #FF0070;
+  --bd-out-but: 1px solid #FF0070;
+  --bd-focus-but: 1px solid #FF0070;
+  --bd-hover-but: 1px solid #FF007066;
+  --bd-focus-link: 1px solid #F1B2CE;
+  --bd-hover-link: 1px solid #F1B2CE;
+  --bg-color-title: #FF0070;
+  --color-tagline: #DB00FF;
+  --text-shadow-tagline: 4px 4px 0px #FF0070;
+  --text-shadow-link: 2.5px 2px 0px #FF0070;
+  --border-color-frame: #FF0070;
+  --display-bulb: block;
+  --bg-img: url('../images/cover-image-dark.png');
+  --bg-color: #000028;
 
 
 }
